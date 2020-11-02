@@ -201,8 +201,12 @@ class CpuData:
                             for row in table.findAll('tr'):
                                 th = str(row.find('th').string)
                                 td = str(row.find('td').text)
-                                self.cpu_properties[self.enum_properties[th]] = td.strip().replace("\n", "")\
-                                    .replace("\r", "")
+                                try:
+                                    self.cpu_properties[self.enum_properties[th]] = td.strip().replace("\n", "")\
+                                        .replace("\r", "")
+                                except Exception as e:
+                                    with open('no_enum', 'a') as f:
+                                        f.write(th)
                         if str(section.find('h1').string) == 'Features':
                             for item in section.findAll('li'):
                                 self.cpu_properties['features_list'].append(str(item.string).strip().replace("\n", ""))
