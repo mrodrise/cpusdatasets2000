@@ -121,7 +121,7 @@ if __name__ == '__main__':
     if len(selected_years) > 2:
         selected_years_list = selected_years.split(',')
         selected_years_list_clean = []
-        for year in selected_years:
+        for year in selected_years_list:
             if year in years and year not in selected_years_list_clean:
                 selected_years_list_clean.append(year)
             else:

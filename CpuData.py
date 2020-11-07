@@ -54,7 +54,8 @@ class CpuData:
             'notes': '',
             'pl1': '',
             'pl2': '',
-            'chipsets': ''
+            'chipsets': '',
+            'chipset': ''
         }
 
         # Table were the softare is going to look for info, based on table class at site
@@ -96,7 +97,8 @@ class CpuData:
             'tJMax:': 'tj_max',
             'PL1:': 'pl1',
             'PL2:': 'pl2',
-            'Chipsets:': 'chipsets'
+            'Chipsets:': 'chipsets',
+            'Chipset:': 'chipset'
         }
 
     def __init__(self, url):
