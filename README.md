@@ -30,4 +30,6 @@ La herramienta detectara de forma automática vuestro sistema operativo, una vez
 5. **As default dataset will contain all the loaded years, if you prefer to pick just some years write them separated by coma for example (2010,2011,2012):** Por defecto se descargarán todas las CPU's disponibles desde el año 2000 a la actualidad, pasando un grupo de años separados por coma se pueden seleccionar años concretos, también es posible seleccionar un solo año.
 
 ## Dataset generado
-El dataset con todos los años puede tardar varios días en generarse, esto es debido a los tiempos de espera que dejamos entre petición y petición para no saturar los servidores de la web, podéis encontrar una versión completa publicada aquí:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4249728.svg)](https://doi.org/10.5281/zenodo.4249728)
+
+El dataset con todos los años puede tardar varios días en generarse, esto es debido a los tiempos de espera que dejamos entre petición y petición para no saturar los servidores de la web, podéis encontrar una versión completa publicada aquí: https://zenodo.org/record/4249728#.X6kJblCCGUk

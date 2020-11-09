@@ -12,7 +12,7 @@ from urllib import robotparser
 # Definimos en otro fichero la clase CpuData que a partir de una URL de una CPU,
 # extraiga todos sus datos e imágenes, se utilizará más adelante en el bucle principal de extracción
 # de los datos de las distintas CPUs.
-from CpuData import CpuData
+from src.CpuData import CpuData
 
 
 def driver_config():
