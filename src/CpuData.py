@@ -282,3 +282,4 @@ class CpuData:
 
         # Devolvemos el código que hemos descargado
         return html_doc
+
