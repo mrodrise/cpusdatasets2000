@@ -33,3 +33,5 @@ La herramienta detectara de forma automática vuestro sistema operativo, una vez
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4249728.svg)](https://doi.org/10.5281/zenodo.4249728)
 
 El dataset con todos los años puede tardar varios días en generarse, esto es debido a los tiempos de espera que dejamos entre petición y petición para no saturar los servidores de la web, podéis encontrar una versión completa publicada aquí: https://zenodo.org/record/4249728#.X6kJblCCGUk
+
+Este dataset esta generado con una versión de la herramienta que no es la versión final del repositorio, esto se debe a que generar el dataset completo conlleva varios días de procesado y la práctica debía estar lista para la fecha 09/11/2020, aun así, es una versión muy completa que incluye todas las CPU's disponibles en site a día 02/11/2020 y a las que solo les falta, en algunos registros, el campo "Chipset".
