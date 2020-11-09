@@ -208,3 +208,5 @@ if __name__ == '__main__':
 
     # Cerramos el driver que habíamos creado
     driver.close()
+
+    
